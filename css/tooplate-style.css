@@ -536,14 +536,15 @@ strong {
     color: #ffc200;
 }
 
-@media (min-width: 1270px) {
+@media (min-width: 1024px) {
     .owl-theme .owl-dots {
         position: relative;
         bottom: 50px;
     }
 }
 
-@media (max-width: 991px) {
+
+/* @media (max-width: 991px) {
     .full-screen {
         padding-bottom: 4rem;
     }
@@ -567,7 +568,7 @@ strong {
         width: 100px;
         height: 10px;
     }
-}
+}                                                        */
 
 @media (max-width: 767px) {
     h1 {
@@ -612,7 +613,8 @@ strong {
     }
 }
 
-@media (max-width: 320px) {
+
+/* @media (max-width: 320px) {
     .animated-text {
         margin-top: 0;
     }
@@ -632,7 +634,7 @@ strong {
         display: inline-block;
         vertical-align: top;
     }
-}
+} */
 
 #skillhead {
     text-align: center;
@@ -696,7 +698,7 @@ strong {
     font-size: 16px;
 }
 
-@media all and (min-width:100px) and (max-width:991px) {
+@media all and (min-width:100px) and (max-width:767px) {
     .opbox img {
         width: 200px;
         height: 100px;
@@ -814,7 +816,7 @@ strong {
     margin: 0%;
 }
 
-@media all and (min-width:100px) and (max-width:680px) {
+@media all and (min-width:100px) and (max-width:767px) {
     .opbox img {
         width: 180px;
         height: 100px;
