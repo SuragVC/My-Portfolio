@@ -9,7 +9,7 @@ https://www.tooplate.com/view/2115-marvel
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
 body {
     font-family: "Maven Pro", sans-serif;
-    margin: 0%;
+    margin-top: 0%;
 }
 
 .full-screen {
@@ -189,7 +189,6 @@ strong {
 
 .navbar {
     margin-top: 0%;
-    background-color: #ffffff;
     z-index: 10000;
     position: fixed;
     top: 0;
@@ -237,6 +236,7 @@ strong {
 
 .navbar-light .navbar-toggler-icon {
     background: #f0f0f0;
+    background-color: #f0f0f0;
 }
 
 .navbar-toggler {
