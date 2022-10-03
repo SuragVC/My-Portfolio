@@ -869,9 +869,9 @@ strong {
     width: 90%;
     margin: auto;
     gap: 50px;
-    padding-top: 100px;
+    padding-top: 10px;
     align-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     letter-spacing: 1px;
 }
 
