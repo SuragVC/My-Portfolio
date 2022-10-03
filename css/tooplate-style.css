@@ -132,6 +132,7 @@ strong {
     margin-top: 5px;
     min-width: 400px;
     position: relative;
+    height: 50px;
 }
 
 .animated-item {
