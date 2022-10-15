@@ -129,7 +129,6 @@ strong {
 .animated-info {
     display: inline-block;
     vertical-align: top;
-    margin-top: 5px;
     min-width: 400px;
     position: relative;
     height: 50px;

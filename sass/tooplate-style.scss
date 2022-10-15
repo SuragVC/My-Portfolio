@@ -136,7 +136,6 @@ strong {
 .animated-info {
     display: inline-block;
     vertical-align: top;
-    margin-top: 10px;
     width: 250px;
     position: relative;
 }
@@ -146,6 +145,7 @@ strong {
 }
 
 .animated-item {
+    border: solid red;
     font-size: 32px;
     line-height: inherit;
     display: block;
