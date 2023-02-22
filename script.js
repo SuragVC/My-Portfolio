@@ -42,7 +42,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Back-End Developer", "Marvel fan"],
+    strings: ["Surag V C", "Back-End Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
