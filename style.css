@@ -16,14 +16,15 @@ html {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #000;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(255, 255, 255);
+  border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(255, 4, 4);
 }
 
 /* all similar content styling codes */
