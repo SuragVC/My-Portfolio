@@ -39,6 +39,7 @@ section {
 .about,
 .services,
 .skills,
+.project-section-1,
 .project,
 .contact,
 footer {
@@ -173,7 +174,7 @@ section .title::after {
 .home {
   display: flex;
 /*   background: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat center; */
-  background: url(" https://c4.wallpaperflare.com/wallpaper/168/328/977/hacking-hackers-v-for-vendetta-wallpaper-preview.jpg") no-repeat center;
+  background: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
@@ -453,6 +454,54 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
+.project-section-1 {
+  color: #fff;
+  background: #2600ff;
+}
+.project-section-1 .title::after {
+  content: "see my work";
+}
+.project-section-1 .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.project-section-1 .carousel .card:hover {
+  background: Tomato;
+  color: #000;
+  /* change */
+}
+.project-section-1 .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.project-section-1 .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+.project-section-1 .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.project-section-1 .carousel .card img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 5px solid Tomato;
+  transition: all 0.3s ease;
+}
+.project-section-1 .carousel .card:hover img {
+  border-color: #fff;
+  color: white;
+}
 .repo-links {
   display: flex;
   justify-content: space-between;
