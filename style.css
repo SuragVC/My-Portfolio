@@ -52,7 +52,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 section .title {
   position: relative;
@@ -226,7 +226,7 @@ section .title::after {
 /* about section styling */
 .about{
 
- 
+
  background-image: url("images/project/10.png");
  /* https://cdn.pixabay.com/photo/2017/02/26/17/47/room-2100838_960_720.jpg */
  background-size: cover;
@@ -234,7 +234,7 @@ section .title::after {
 }
 .about .title::after {
   content: "Who I am";
- 
+
 }
 .about .about-content .left {
   width: 45%;
@@ -252,11 +252,11 @@ section .title::after {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
-  
+
 }
 .about .about-content .right .text span {
   color: red;
-  
+
 }
 .about .about-content .right p {
   text-align: justify;
@@ -291,7 +291,7 @@ section .title::after {
 }
 .services .title::before,
 .project .title::before {
-  
+
   background: #fff;
 }
 .services .title::after,
@@ -997,7 +997,7 @@ margin-top: 20px;
   border-radius: 6px;
   border: 2px solid Tomato;
   /* transition: all 0.3s ease; */
-  
+
 }
 #ree:hover {
   color: Tomato;

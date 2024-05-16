@@ -35,7 +35,7 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Flutter Developer", "L1 @ Rapidor"],
+    strings: ["Flutter Developer", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -70,6 +70,31 @@ $(document).ready(function () {
       },
     },
   });
+  //   $('form').submit(function(event) {
+  //       event.preventDefault();
+  //       var formData = {
+  //           'name': $('input[name=name]').val(),
+  //           'email': $('input[name=email]').val(),
+  //           'subject': $('input[name=subject]').val(),
+  //           'message': $('textarea[name=message]').val()
+  //       };
+
+  //       $.ajax({
+  //           type: 'POST',
+  //           url: 'send_email.php', // Replace 'send_email.php' with your server-side script URL
+  //           data: formData,
+  //           dataType: 'json',
+  //           encode: true
+  //       })
+  //       .done(function(data) {
+  //           alert(data.message);
+  //           // Optionally, you can reset the form after successful submission
+  //           $('form')[0].reset();
+  //       })
+  //       .fail(function(data) {
+  //           alert('Failed to send message. Please try again later.');
+  //       });
+  // });
 });
 
 let drive  = document.querySelector(".Drivegoogle").addEventListener("click",openDrive)
